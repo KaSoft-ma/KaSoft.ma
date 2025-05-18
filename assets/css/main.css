@@ -1,0 +1,110 @@
+
+    .contact-form {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-control {
+        height: 52px;
+        background: #fff;
+        color: #000;
+        font-size: 14px;
+        border-radius: 5px;
+        box-shadow: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    textarea.form-control {
+        height: auto;
+    }
+    
+    .btn-primary {
+        background: #1e3c72;
+        border-color: #1e3c72;
+        color: #fff;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+    
+    .btn-primary:hover {
+        background: #2a5298;
+        border-color: #2a5298;
+    }
+    
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #1e3c72;
+        margin-right: 15px;
+    }
+    
+    .icon span {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .text span {
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .dbox {
+        margin-bottom: 25px;
+    }
+    
+    /* Error message styling */
+    .error-message {
+        color: #dc3545;
+        font-size: 12px;
+        margin-top: 5px;
+        min-height: 17px;
+    }
+    
+    .form-control.error {
+        border-color: #dc3545;
+    }
+    
+    /* Alert styling */
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    
+    .alert-success {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+    }
+    
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+    
+    /* Spinner styling */
+    .spinner {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        border: 3px solid rgba(255,255,255,.3);
+        border-radius: 50%;
+        border-top-color: #fff;
+        animation: spin 1s ease-in-out infinite;
+    }
+    
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+    
+    /* Button disabled state */
+    .btn:disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+    }
+    
